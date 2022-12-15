@@ -1,0 +1,180 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family: 'Mulish',sans-serif;
+}
+
+.fnav{
+    display:flex;
+    justify-content: center;
+    justify-content:space-around;
+}
+.fnav input{
+
+    width:400px;
+    height:38px;
+    border-radius: 3px;
+    text-align: center;
+    border:2px solid grey;
+    margin-top: 16px;
+}
+
+.fnav p{
+    margin-top: 17px;
+    font-size: 17px;
+
+
+
+}
+
+.snav{
+
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding:17px;
+    background-color:dimgrey;
+    /*font-weight: 800px;*/
+
+}
+
+.snav p:hover{
+    /*border-bottom:2px solid rgb(13, 13, 46);*/
+    color:rgb(13, 13, 46);
+    cursor:pointer;
+}
+
+
+
+.snav img{
+    width:11%;
+}
+
+.lens{
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(225,250,250);
+    padding:11px;
+
+
+}
+
+.lens img{
+
+    width:11%;
+    border:2px solid white;
+    border-radius: 5px;
+
+}
+
+
+.main img{
+    width:100%;
+
+
+}
+
+
+.cart{
+
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+
+
+}
+
+.cart .card{
+    text-align:center;
+
+}
+
+.card.card img{
+    width:70%;
+
+
+}
+.card button{
+    width:100px;
+    height: 33px;
+    color:white;
+    background-color: rgb(52, 180, 180);
+    border-radius:2px;
+    border:none;
+    font-size:18px;
+    font-weight: 6;
+}
+.card p{
+    font-size: 16px;
+}
+
+.banner h2{
+    text-align: center;
+    padding:22px;
+
+}
+
+.banner.img.img{
+width:100%;
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+justify-content: center;
+float: left;
+padding:11px;
+
+
+}
+
+.banner.t-img{
+    
+    display: flex ;
+    flex-direction: row;
+     justify-content: space-between;
+     width: 49%;
+     border-left: solid 1px white;
+     
+
+
+
+
+
+}
+
+
+/*.banner.s-img{
+    flex:1;
+    object-fit: cover;
+    overflow: hidden;
+    margin-right:10px;
+}*/
+
+
+
+.footer{
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(26, 26, 84);
+    color:white;
+    padding:50px;
+    width: 100%;
+
+}
+
+
+.footer.list ul{
+    list-style:none;
+}
+
+.image-hallo{
+    padding-left: 150px;
+}
+
+
+
+
+
+
+
